@@ -1,0 +1,36 @@
+# lightsaber generator
+
+print 'Welcome to the lightsaber generator! This program will tell you what color lightsaber gives you.'
+
+
+
+response1 = raw_input('Good or bad you are?')
+
+
+if response1 == 'bad':
+	print "Red lightsaber color, you have."
+
+elif response1 == 'good':
+	response2 = raw_input('Moral or strong are you?')
+
+	if response2 == 'moral':
+		print "Purple lightsaber color, you have"
+
+	elif response2 == 'strong':
+		response3 = raw_input('Strong with the mind or physically strong, are you?')
+
+		if response3 == 'strong with the mind':
+			print "green lightsaber color, you have"
+
+		elif response3 == 'physically strong':
+			print "Blue lightsaber color, you have"
+
+		else:
+			 print "Valid answer, provide you must"
+
+	else:
+		print "Valid answer, provide you must"
+
+
+else:
+	print "Valid answer, provide you must"
